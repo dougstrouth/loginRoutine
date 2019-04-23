@@ -8,8 +8,8 @@ Websites in the config file need only be separated by a space
 
 
 To add this to windows scheduler open up windows scheduler
-Step 1 - create basic task
-Step 2 - trigger, set this to login
+Step 1 - create basic task \n
+Step 2 - trigger, set this to login \n
 Step 3 - action, set to open application. powershell in the application field and -File *filepath of the ps1 file*
 Step 4 - save the task
 Step 5 - test it by hitting the play button
