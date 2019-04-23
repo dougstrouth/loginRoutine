@@ -8,12 +8,6 @@ $outputPath = "C:\Users\dstrouth001\Documents\Notes\"
 #enter as many websites as you want, separated only by a space in the config file referenced below
 $configFile = "dailyWebsites.txt"
 
-
-
-
-
-
-
 cd $saveLocation
 
 $configFile = Get-Content -Path $configFile
@@ -25,10 +19,10 @@ $configFile
 Start-Process "chrome.exe" $configFile
 
 #open hangouts
-Start-Process "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"  '--profile-directory="Profile 1" --app-id=mhhldpgdcgmiffilmolkiakenojnibmp'
+Start-Process "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"  #'put any parameters you need to feed an application in quotes here. For me I had to give specific parameters to chrome to open hangouts chat'
 
 #setup my notes file for the day
-
+#change date format or name however you want, I prefer just the date in a dedicated notes folder
 $today = Get-Date -UFormat "%m-%d-%y"
 
 #create word object
