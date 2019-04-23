@@ -1,7 +1,7 @@
 # loginRoutine
 Powershell script to automate my morning work setup. Opens all websites, my IM client, and creates a notes word file for me.
 
-Edit file paths as needed in the script and websites in the config file to customize this for your own needs
+Edit file paths as needed in the script and websites in the config file to customize this for your own needs. I prefer to keep all mine in a dedicated scripts folder in root for ease.
 
 Websites in the config file need only be separated by a space
 
